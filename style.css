@@ -1,0 +1,50 @@
+
+#page-title {
+	text-align: center;
+	font-size: 44px;
+}
+#main-content {
+	position:relative;
+	height:800px;
+	}
+
+#photo-carousel {
+	margin: 0 25%;
+	position:relative;
+	width:800px;
+	right:0;
+	height: 600px;
+	text-align:right;
+	left:0;
+	}
+#backward, #forward {
+	line-height:600px;
+	position:absolute;
+	height:100%;
+	width:100px;
+	color:white;
+	background-color: rgba(0,0,0,.4);
+	font-size:150px;
+	z-index:333;
+	visibility:hidden;
+	cursor: pointer;
+	}
+#backward {
+	left:0;
+	}
+#forward {
+	right:0;
+	}
+#photo-selector {
+	text-align: center;
+	}
+.dot {
+	display:inline-block;
+	width:15px;
+	height:15px;
+	border-radius: 10px;
+	border:1px solid red;
+	}
+.selected {
+	background-color:red;
+	}
